@@ -38,13 +38,13 @@
     </date>
   </macro>
 
-  <citation collapse="citation-number">
-    <sort>
-      <key variable="citation-number"/>
-    </sort>
-    <layout prefix="[" suffix="]" delimiter=",">
-      <text variable="citation-number"/>
-    </layout>
+<citation collapse="citation-number">
+  <sort>
+    <key variable="citation-number"/>
+  </sort>
+  <layout delimiter=",">
+    <text variable="citation-number" vertical-align="sup"/>
+  </layout>
   </citation>
 
   <bibliography second-field-align="flush" entry-spacing="0" line-spacing="1">
